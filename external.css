@@ -1,0 +1,86 @@
+		body {
+			background: purple url("background.png") no-repeat fixed;
+			background-size:cover;
+            margin: 0px;
+         }  
+      
+		 nav {
+            text-align: center;
+            z-index: 1000;
+         }
+		 
+         ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+         }
+         
+         li {
+            width: 100px; 
+         }
+         
+         li:last-child {
+            margin-right: 0; 
+         }
+         
+         a {
+            text-decoration: none;
+            color: black;
+            font-family: Segoe UI;
+         }
+	  
+         li a {
+            display: block;
+            background: #E2BFD9;
+            padding: 20px 20px;
+            text-align: center;
+         }
+         
+         a:hover {
+            color: white;
+            background: #E2BFD9;
+			text-decoration: underline;
+         }
+		 
+		 .nav-links a:active {
+			background-color: #C8A1E0; /* Darker shade when active */
+			color: white; /* Change text color */
+		 }
+		 
+		 .nav-bc.active {
+			display:flex;
+		 }
+		 
+		 .nav-bc a.active {
+			background: #C8A1E0;
+         }
+		 
+		 .container {
+			display: flex;
+		}
+         .article {
+			background-color: #CBC3E3;
+            border: 1px solid #ccc;
+            padding: 5px 30px 5px 30px ;
+            margin: 50px 0px 5px 72px;
+			font-style: verdana;
+			height: 550px;
+			width: 900px;
+			text-align: justify;
+		 }
+		 
+		 .image1 {
+			margin: 50px 0px 0px 0px;
+		 }
+		 
+		 
+		 footer {
+            text-align: center;
+            clear: both;
+            position: sticky;
+         }
+		 
+		 
+	
