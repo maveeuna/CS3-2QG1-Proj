@@ -1,0 +1,128 @@
+ body {
+   background: white url("background2.png")no-repeat fixed;
+   background-size: cover;
+   margin: 0px;
+ } 
+ 
+ .logo {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin: 0px 0px 0px 50px;
+ }
+
+ .shield {
+   float: left;
+ }
+
+ .navbar {
+   display: flex;
+   position: fixed;
+   top: 0;
+   width: 1920px;
+   align-items: center;
+   justify-content: space-around;
+   padding: 5px 10px;
+   height: 60px;
+   background-color: #fcfbfc;
+ }
+ 
+ ul {
+   list-style-type: none;
+   margin: 0px 30px 0px 0px;
+   padding: 0px;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ li {
+   width: 150px; 
+ }
+ 
+ li:last-child {
+   margin-right: 0; 
+ }
+ 
+ .active {
+   display: block;
+   text-decoration: none;
+   color: #fcfbfc;
+   font-family: Segoe UI;
+   background: #cba7d7;
+   width: 100px;
+   padding: 15px 20px;
+ }
+
+ li a {
+   text-align: center;
+ }
+ 
+ .active:hover {
+   text-decoration: underline;
+ }
+ 
+ .active:active {
+   color: rgb(0, 0, 0);
+   background: #cc00ff;
+   text-decoration: underline;
+   position: fixed;
+ }
+
+ a:visited {
+  text-decoration: underline;
+ }
+
+ .border {
+  width: block;
+  height: 800px;
+  background-color: #fcfbfc;
+  border: 18px solid #fcfbfc;
+  box-sizing: border-box; 
+  margin: 750px 0px 0px 0px;
+ }
+
+ h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: #cc00ff;;
+ }
+
+ .gender-pay-gap {
+  height:400px;
+  width: 450px;
+  margin: 100px 0px 0px 165px;
+ }
+
+ .education_difference {
+  height:400px;
+  width: 450px;
+  margin: 100px 0px 0px 60px;
+ }
+
+ .abuse {
+  height:400px;
+  width: 450px;
+  margin: 100px 0px 0px 60px;
+ }
+
+ .gender-pay-gaptxt {
+  font-size: 20px;
+  margin: 1000px 0px 0px 260px;
+ }
+
+ .education_differencetxt {
+  font-size: 20px;
+  margin: 1000px 0px 0px 200px;
+ }
+
+ .abusetxt {
+  font-size: 20px;
+  margin: 1000px 0px 0px 200px;
+ }
+
+ footer {
+  text-align: center;
+  clear: both;
+  margin: 100px 0px 0px 0px;
+}
+
