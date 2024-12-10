@@ -1,0 +1,141 @@
+		body {
+			background: white url("background.png")no-repeat fixed;
+			background-size: cover;
+			margin: 0px;
+         } 
+		 
+		 .logo {
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+			margin: 0px 0px 0px 50px;
+		 }
+
+		 .shield {
+			float: left;
+		 }
+
+		 .navbar {
+			display: flex;
+			position: fixed;
+			top: 0;
+			width: 1920px;
+			align-items: center;
+			justify-content: space-around;
+			padding: 5px 10px;
+			height: 60px;
+			background-color: #fcfbfc;
+			
+         }
+		 
+         ul {
+            list-style-type: none;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+         }
+         
+         li {
+            width: 150px; 
+         }
+         
+         li:last-child {
+            margin-right: 0; 
+         }
+         
+         a {
+			display: block;
+            text-decoration: none;
+            color:#fcfbfc;
+            font-family: Segoe UI;
+			background: #cba7d7;
+			width: 100px;
+			padding: 15px 20px;
+         }
+	  
+         li a {
+            text-align: center;
+         }
+         
+         a:hover {
+			text-decoration: underline;
+         }
+		 
+		 a:active {
+		 	color: rgb(0, 0, 0);
+		 	background: #cc00ff;
+		 	text-decoration: underline;
+		 	position: fixed;
+		 }
+
+		 a:visited {
+			text-decoration: underline;
+		 }
+
+		 .quote{
+			margin: 90px 0px 0px 0px;
+			text-align: center;
+		 }
+
+		 .equalityquote {
+			width: 500px;
+			margin-left: 700px;
+			text-align: justify;
+			background-color: #fcfbfc;
+			border: 18px solid #fcfbfc;
+			box-sizing: border-box; 
+		 }
+
+		 .brief-introduction {
+			width: block;
+			height: 1310px;
+			background-color: #fcfbfc;
+			border: 18px solid #fcfbfc;
+			box-sizing: border-box; 
+			margin: 750px 0px 0px 0px;
+		 }
+
+		 .why{
+			float: left;
+			width: 450px;
+			height: 500px;
+			padding: 10px 40px 5px 40px;
+			text-align: justify;
+			background-color: #cba7d7;
+			border: 18px solid #fcfbfc;
+			box-sizing: border-box; 
+			margin-left: 220px;
+		 }
+
+		 .problems{
+			float: left;
+			width: 450px;
+			height: 500px;
+			padding: 10px 40px 5px 40px;
+			text-align: justify;
+			background-color: #8a46b4;
+			color:#e3ceeb;
+			border: 18px solid #fcfbfc;
+			box-sizing: border-box; 
+			margin-left: 20px;
+		 }
+
+		 .how{
+			float: left;
+			width: 450px;
+			height: 500px;
+			padding: 10px 40px 5px 40px;
+			text-align: justify;
+			background-color: #600f93;
+			color: #fcfbfc;
+			border: 18px solid #fcfbfc;
+			box-sizing: border-box; 
+			margin-left: 20px;
+			margin-right: 100px;
+		 }
+		  
+		 footer {
+            text-align: center;
+            clear: both;
+            position: sticky;
+         }
